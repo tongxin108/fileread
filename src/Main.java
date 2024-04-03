@@ -24,6 +24,7 @@ public class Main {
 
         String line;
         System.out.println("**************************"+"\n");
+        writer.write("**************************"+"\n");
         System.out.println("ID#"+"\t"+"Name"+"\t"+"quantity"+"\t"+"price"+"\n");
 
         while((line = reader.readLine()) != null){
@@ -38,6 +39,7 @@ public class Main {
             
         }
         System.out.println("**************************");
+        writer.write("**************************");
         System.out.println("\n"+"Total price of groceries"+Math.round(totalPrice));
         writer.write("\n" + "Total price of groceries" + Math.round(totalPrice));
         
